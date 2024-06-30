@@ -30,6 +30,7 @@ exports.createCourse = async (req, res) => {
 
     // Convert the tag and instructions from stringified Array to Array
     const tag = JSON.parse(_tag)
+    // console.log(courseName, courseDescription, whatYouWillLearn, price, tag, category)
     const instructions = JSON.parse(_instructions)
 
     console.log("tag", tag)

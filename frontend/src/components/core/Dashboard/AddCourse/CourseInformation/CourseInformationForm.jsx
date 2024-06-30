@@ -14,7 +14,7 @@ import { setCourse, setStep } from "../../../../../slices/courseSlice"
 import { COURSE_STATUS } from "../../../../../utils/constants"
 import IconBtn from "../../../../Common/IconBtn"
 import Upload from "../Upload"
-// import ChipInput from "./ChipInput"
+import ChipInput from "./ChipInput"
 import RequirementsField from "./RequirementsField"
 
 export default function CourseInformationForm() {
@@ -248,7 +248,7 @@ export default function CourseInformationForm() {
         )}
       </div>
       {/* Course Tags */}
-      {/* <ChipInput
+      <ChipInput
         label="Tags"
         name="courseTags"
         placeholder="Enter Tags and press Enter"
@@ -256,7 +256,7 @@ export default function CourseInformationForm() {
         errors={errors}
         setValue={setValue}
         getValues={getValues}
-      /> */}
+      />
       {/* Course Thumbnail Image */}
       <Upload
         name="courseImage"
