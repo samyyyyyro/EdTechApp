@@ -39,7 +39,7 @@ const About = () => {
       <section className="border-b border-richblack-700">
         <div className="mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-richblack-500">
           <div className="h-[100px] "></div>
-          <Quote />
+           {/* <Quote /> */}
         </div>
       </section>
 
@@ -102,19 +102,19 @@ const About = () => {
         </div>
       </section>
 
-      <StatsComponenet />
+      {/* <StatsComponenet /> */}
       <section className="mx-auto mt-20 flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-white">
-        <LearningGrid />
-        <ContactFormSection />
+        {/* <LearningGrid /> */}
+        {/* <ContactFormSection /> */}
       </section>
 
-      <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
-        {/* Reviws from Other Learner */}
+      {/* <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
+        
         <h1 className="text-center text-4xl font-semibold mt-8">
           Reviews from other learners
         </h1>
         <ReviewSlider />
-      </div>
+      </div> */}
       <Footer />
     </div>
   )
