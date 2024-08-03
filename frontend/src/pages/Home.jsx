@@ -19,9 +19,9 @@ function Home() {
   return (
     <div>
       {/* Section 1 */}
-      <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 text-white">
+      <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 text-white my-5">
         
-        {/* Become a Instructor Button */}
+        
 
         {/* <Link to={"/signup"}>
           <div className="group mx-auto mt-16 w-fit rounded-full bg-richblack-800 p-1 font-bold text-richblack-200 drop-shadow-[0_1.5px_rgba(255,255,255,0.25)] transition-all duration-200 hover:scale-95 hover:drop-shadow-none">
@@ -33,18 +33,17 @@ function Home() {
         </Link> */}
 
         {/* Heading */}
-        {/* <div className="text-center text-4xl font-semibold">
-          Empower Your Future with
-          <HighlightText text={"Coding Skills"} />
-        </div> */}
+        <div className="text-center text-4xl font-semibold">
+          Empower Your Future with Coding Skills
+        </div>
 
         {/* Sub Heading */}
-        {/* <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
+        <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
           With our online coding courses, you can learn at your own pace, from
           anywhere in the world, and get access to a wealth of resources,
           including hands-on projects, quizzes, and personalized feedback from
           instructors.
-        </div> */}
+        </div>
 
         {/* CTA Buttons */}
         {/* <div className="mt-8 flex flex-row gap-7">
@@ -57,9 +56,8 @@ function Home() {
         </div> */}
 
         {/* Video */}
-        <div className="mx-3 my-7 shadow-[10px_-5px_50px_-5px] shadow-blue-200">
+        <div className="mx-3 my-7">
           <video
-            className="shadow-[20px_20px_rgba(255,255,255)]"
             muted
             loop
             autoPlay
@@ -159,7 +157,7 @@ function Home() {
           <div className="mb-10 mt-[-100px] flex flex-col justify-between gap-7 lg:mt-20 lg:flex-row lg:gap-0">
             <div className="text-4xl font-semibold lg:w-[45%] ">
               Get the skills you need for a{" "}
-              <HighlightText text={"job that is in demand."} />
+              job that is in demand.
             </div>
             <div className="flex flex-col items-start gap-10 lg:w-[40%]">
               <div className="text-[16px]">
